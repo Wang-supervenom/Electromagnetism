@@ -15,7 +15,6 @@ header {
     padding: 20px;
 }
 
-/* 按钮样式 */
 button {
     background-color: #0044cc;
     color: white;
@@ -26,6 +25,7 @@ button {
     border-radius: 5px;
     margin: 10px;
     transition: background 0.3s;
+    display: inline-block; /* 确保按钮是可见的 */
 }
 
 button:hover {
