@@ -8,7 +8,7 @@ function toggleWelcomeLetter() {
         document.getElementById("letter-content").innerHTML = `
             <h2>Welcome to the Electromagnetism Learning Community!</h2>
             <p><strong>Dear E and M Enthusiasts,</strong></p>
-            <p>We are thrilled to welcome you to this exciting research community! Here, we strive to explore and understand 
+            <p>I'm thrilled to welcome you to this exciting research community! Here, we strive to explore and understand 
             <strong>Electromagnetism</strong>, analyze its impact, and share valuable knowledge with others.</p>
             <p>This guide will help you:</p>
             <ul>
