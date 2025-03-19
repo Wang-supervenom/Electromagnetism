@@ -13,15 +13,17 @@ header {
 }
 
 button {
-    background-color: #008000;
+    background-color: #0044cc;
     color: white;
     padding: 10px 20px;
     border: none;
+    font-size: 16px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #006400;
+    background-color: #003399;
 }
 
 #welcome-letter {
@@ -33,15 +35,6 @@ button:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 5px;
-}
-button {
-    background-color: #0044cc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #003399;
+    text-align: left;
+    display: none; /* 默认隐藏 */
 }
