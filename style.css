@@ -20,21 +20,20 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    margin: 10px;
 }
 
 button:hover {
     background-color: #003399;
 }
 
-#welcome-letter {
+main {
     max-width: 600px;
     margin: auto;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 5px;
-    text-align: left;
-    display: none; /* 默认隐藏 */
 }
