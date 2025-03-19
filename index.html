@@ -7,37 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <h1>Electromagnetism Learning</h1>
         <p>Explore the fundamentals of electromagnetism through interactive content.</p>
     </header>
-    
+
     <main>
-        <section>
-            <h2>Introduction to Electromagnetism</h2>
-            <p>Electromagnetism is one of the four fundamental forces of nature...</p>
-        </section>
-        
-        <button onclick="showMessage()">Click Me</button>
-        <p id="message"></p>
+        <h2>Welcome to the Electromagnetism Learning Website</h2>
+        <p>Click the button below to read the Welcome Letter.</p>
+        <button id="toggle-welcome-btn" onclick="toggleWelcomeLetter()">View Welcome Letter</button>
+
+        <div id="welcome-letter">
+            <p id="letter-content"></p>
+        </div>
     </main>
 
     <script src="script.js"></script>
+
 </body>
 </html>
-<h2>Welcome to Electromagnetism Learning</h2>
-<p>Click the button below to read the welcome letter.</p>
-<button onclick="showWelcomeLetter()">View Welcome Letter</button>
-
-<div id="welcome-letter" style="display: none; margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9;">
-    <h3>Welcome Letter</h3>
-    <p id="letter-content">[Welcome Letter Content Will Appear Here]</p>
-</div>
-
-<h2>Welcome to the Electromagnetism Learning Website</h2>
-<p>Click the button below to read the Welcome Letter.</p>
-<button onclick="showWelcomeLetter()">View Welcome Letter</button>
-
-<div id="welcome-letter" style="display: none; margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9; text-align: left;">
-    <p id="letter-content"></p>
-</div>
