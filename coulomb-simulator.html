@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coulomb's Law Simulator</title>
+    <link rel="stylesheet" href="simulator-style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Coulomb's Law Simulator</h1>
+        <p>Drag the charges and adjust their values to see the force change.</p>
+    </header>
+
+    <main>
+        <canvas id="simulationCanvas"></canvas>
+
+        <div class="controls">
+            <label>Charge 1 (q1, C): 
+                <input type="number" id="charge1" value="1" step="0.1">
+            </label>
+            <label>Charge 2 (q2, C): 
+                <input type="number" id="charge2" value="-1" step="0.1">
+            </label>
+        </div>
+
+        <button onclick="location.href='index.html'">Back to Main Page</button>
+    </main>
+
+    <script src="simulator-script.js"></script>
+
+</body>
+</html>
