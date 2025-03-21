@@ -45,7 +45,24 @@ button:hover {
     text-align: left;
 }
 
-/* Welcome Letter 可展开部分（默认隐藏） */
+/* 可展开部分（默认隐藏） */
 #expanded-content {
     display: none;
+}
+
+/* 按钮样式 */
+button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #003399;
 }
