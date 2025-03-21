@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Message Board</h1>
+        <p>Post your questions or discussions, and reply to others!</p>
+    </header>
+
+    <main>
+        <div class="message-form">
+            <textarea id="message-input" placeholder="Type your message here..."></textarea>
+            <button onclick="postMessage()">Post</button>
+        </div>
+
+        <h2>Discussion</h2>
+        <div id="message-board">
+            <!-- Messages will be displayed here -->
+        </div>
+    </main>
+
+    <button onclick="location.href='index.html'">Back to Main Page</button>
+
+    <script src="message-board.js"></script>
+</body>
+</html>
