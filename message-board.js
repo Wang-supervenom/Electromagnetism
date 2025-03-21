@@ -43,11 +43,21 @@ function postMessage() {
     loadMessages();
 }
 
-// 点赞留言
+// 点赞留言（每人只能点赞一次）
 function likeMessage(index) {
     let messages = JSON.parse(localStorage.getItem("messages")) || [];
+    let likedMessages = JSON.parse(localStorage.getItem("likedMessages")) || []; // 存储已点赞的留言索引
+
+    if (likedMessages.includes(index)) {
+        alert("You have already liked this message!");
+        return; // 如果已点赞，直接返回
+    }
+
     messages[index].likes = (messages[index].likes || 0) + 1; // 点赞 +1
+    likedMessages.push(index); // 记录已点赞留言
     localStorage.setItem("messages", JSON.stringify(messages));
+    localStorage.setItem("likedMessages", JSON.stringify(likedMessages));
+
     document.getElementById(`like-count-${index}`).innerText = messages[index].likes; // 更新 UI
 }
 
