@@ -86,3 +86,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+    color: #444;
+    border-top: 1px solid #ccc;
+}
