@@ -66,3 +66,24 @@ button {
 button:hover {
     background-color: #003399;
 }
+
+#calculator input {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#calculator button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculator button:hover {
+    background-color: #003399;
+}
