@@ -1,56 +1,33 @@
-/* 全局样式 */
+/* === 全局字体和背景设置 === */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f5f5f5;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    background: linear-gradient(to bottom right, #f0f4ff, #e6f0ff);
     color: #333;
-    padding: 20px;
     margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-/* 头部样式 */
+/* === 页头样式 === */
 header {
     background-color: #0044cc;
     color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === 主区域 === */
+main {
     padding: 20px;
-}
-
-button {
-    background-color: #0044cc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 10px;
-    transition: background 0.3s;
-    display: inline-block; /* 确保按钮是可见的 */
-}
-
-button:hover {
-    background-color: #003399;
-}
-
-/* Welcome Letter 样式 */
-#welcome-letter {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
-    font-size: 16px;
-    line-height: 1.6;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 5px;
-    text-align: left;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
-/* 可展开部分（默认隐藏） */
-#expanded-content {
-    display: none;
-}
-
-/* 按钮样式 */
+/* === 按钮样式 === */
 button {
     background-color: #0044cc;
     color: white;
@@ -58,98 +35,54 @@ button {
     border: none;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
-    margin: 10px;
-    transition: background 0.3s;
+    border-radius: 8px;
+    margin: 10px 5px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #003399;
+    background-color: #002a80;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#calculator input {
-    width: 100px;
-    padding: 5px;
+/* === 输入框（用于留言或计算器） === */
+input, textarea {
     font-size: 16px;
-}
-
-#calculator button {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
     margin-top: 10px;
-    padding: 8px 16px;
-    font-size: 16px;
-    background-color: #0044cc;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#calculator button:hover {
-    background-color: #003399;
-}
-
-.message-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-#message-input {
-    width: 80%;
-    height: 100px;
-    padding: 10px;
-    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 
-button {
-    background-color: #0044cc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 10px;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background-color: #003399;
-}
-
+/* === 留言板的留言区块样式 === */
 .message {
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-}
-
-.message button {
-    margin: 5px;
-    padding: 5px 10px;
-    font-size: 14px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.message button:hover {
-    opacity: 0.8;
-}
-
-button[onclick^="likeMessage"] {
-    background-color: #ffcc00;
-    color: black;
+    background-color: #f9f9ff;
+    padding: 15px;
+    border-left: 5px solid #0044cc;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 .replies {
+    margin-top: 10px;
     margin-left: 20px;
-    font-size: 14px;
     color: #555;
+}
+
+/* === 小标题样式 === */
+h2, h3 {
+    color: #0044cc;
+}
+
+/* === 链接样式 === */
+a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
