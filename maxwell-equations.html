@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maxwell's Equations</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maxwell's Equations</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Maxwell's Equations</h1>
+    <p>Explore the unified theory of electromagnetism through Maxwell’s Equations.</p>
+  </header>
 
-    <header>
-        <h1>Maxwell's Equations</h1>
-    </header>
+  <main>
+    <h2>Overview</h2>
+    <p>
+      Maxwell’s Equations unify electricity, magnetism, and optics. They describe how electric
+      charges and currents produce electric and magnetic fields, and how these fields interact
+      and propagate.
+    </p>
 
-    <main>
-        <p>Maxwell's Equations describe the fundamental principles of electromagnetism. They consist of four equations:</p>
+    <h2>Equations</h2>
+    <ol>
+      <li><strong>Gauss’s Law:</strong> ∇·E = ρ / ε₀</li>
+      <li><strong>Gauss’s Law for Magnetism:</strong> ∇·B = 0</li>
+      <li><strong>Faraday’s Law:</strong> ∇×E = -∂B/∂t</li>
+      <li><strong>Ampère–Maxwell Law:</strong> ∇×B = μ₀J + μ₀ε₀∂E/∂t</li>
+    </ol>
 
-        <h3>1. Gauss's Law</h3>
-        <p><strong>∮ E ⋅ dA = Q / ε₀</strong></p>
-        <p>Describes the relation between electric charge and electric field.</p>
+    <h2>Key Points</h2>
+    <ul>
+      <li><strong>Unified Framework:</strong> Combines electrostatics, magnetism, and dynamics.</li>
+      <li><strong>Electromagnetic Waves:</strong> Light is predicted to be an EM wave.</li>
+      <li><strong>Applications:</strong> Forms the foundation of communication, optics, and modern physics.</li>
+    </ul>
 
-        <h3>2. Gauss's Law for Magnetism</h3>
-        <p><strong>∮ B ⋅ dA = 0</strong></p>
-        <p>States that there are no magnetic monopoles; magnetic field lines always form closed loops.</p>
+    <button onclick="location.href='index.html'">Back to Main Page</button>
+  </main>
 
-        <h3>3. Faraday's Law</h3>
-        <p><strong>∮ E ⋅ dl = - dΦB / dt</strong></p>
-        <p>Describes how a changing magnetic field induces an electric field (electromagnetic induction).</p>
-
-        <h3>4. Ampère-Maxwell Law</h3>
-        <p><strong>∮ B ⋅ dl = μ₀ (I + ε₀ dΦE / dt)</strong></p>
-        <p>Describes how electric currents and changing electric fields produce magnetic fields.</p>
-
-        <p>These equations form the foundation of electromagnetism and are crucial for understanding light, radio waves, and wireless communication.</p>
-
-        <h3>Further Reading</h3>
-        <ul>
-            <li><a href="https://www.khanacademy.org/science/physics" target="_blank">Khan Academy - Maxwell's Equations</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Maxwell%27s_equations" target="_blank">Wikipedia - Maxwell’s Equations</a></li>
-        </ul>
-
-        <button onclick="location.href='index.html'">Back to Main Page</button>
-    </main>
-    <footer>
+  <footer>
     <p>&copy; 2025 Evan Wang | Electromagnetism Learning Project</p>
-</footer>
-
+  </footer>
 </body>
 </html>
