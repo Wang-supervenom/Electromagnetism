@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electromagnetism Constants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Common Constants in Electromagnetism</h1>
+        <p>A reference page for important physical constants</p>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Constant</th>
+                    <th>Symbol</th>
+                    <th>Value</th>
+                    <th>Unit</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vacuum permittivity</td>
+                    <td>ε₀</td>
+                    <td>8.854 × 10⁻¹²</td>
+                    <td>F/m</td>
+                    <td>Permittivity of free space</td>
+                </tr>
+                <tr>
+                    <td>Vacuum permeability</td>
+                    <td>μ₀</td>
+                    <td>4π × 10⁻⁷</td>
+                    <td>N/A²</td>
+                    <td>Permeability of free space</td>
+                </tr>
+                <tr>
+                    <td>Speed of light</td>
+                    <td>c</td>
+                    <td>3.00 × 10⁸</td>
+                    <td>m/s</td>
+                    <td>Light speed in vacuum</td>
+                </tr>
+                <tr>
+                    <td>Coulomb's constant</td>
+                    <td>k</td>
+                    <td>8.99 × 10⁹</td>
+                    <td>N·m²/C²</td>
+                    <td>Electrostatic force constant</td>
+                </tr>
+                <tr>
+                    <td>Elementary charge</td>
+                    <td>e</td>
+                    <td>1.602 × 10⁻¹⁹</td>
+                    <td>C</td>
+                    <td>Charge of a proton/electron</td>
+                </tr>
+                <tr>
+                    <td>Planck's constant</td>
+                    <td>h</td>
+                    <td>6.626 × 10⁻³⁴</td>
+                    <td>J·s</td>
+                    <td>Quantum of action</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button onclick="location.href='index.html'">Back to Main Page</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Evan Wang | Electromagnetism Learning Project</p>
+    </footer>
+
+</body>
+</html>
