@@ -1,68 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coulomb's Law</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coulomb's Law</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Coulomb's Law</h1>
+    <p>Explore the fundamentals of Coulomb's Law in electromagnetism.</p>
+  </header>
 
-    <header>
-        <h1>Coulomb's Law</h1>
-    </header>
+  <main>
+    <h2>Overview</h2>
+    <p>
+      Coulomb’s Law quantifies the electrostatic force between two point charges.
+      It states that the magnitude of the force <strong>F</strong> is directly
+      proportional to the product of the charges <em>(q₁ q₂)</em> and inversely
+      proportional to the square of the distance <em>(r²)</em> separating them:
+    </p>
+    <p><strong>F = k · (q₁ · q₂) / r²</strong></p>
+    <p>
+      The force acts along the line connecting the two charges; like charges repel,
+      while unlike charges attract. This law underpins the fundamentals of electrostatics,
+      influencing fields such as chemistry, particle physics, and electrical engineering.
+    </p>
 
-    <main>
-        <p>Coulomb’s Law describes the force between two electric charges. The force is given by:</p>
-        <p><strong>F = k * (q1 * q2) / r²</strong></p>
-        <p>where:</p>
-        <ul>
-            <li><strong>F</strong> is the electrostatic force (Newtons, N)</li>
-            <li><strong>k</strong> is Coulomb's constant (8.99 × 10⁹ Nm²/C²)</li>
-            <li><strong>q1, q2</strong> are the magnitudes of the charges (Coulombs, C)</li>
-            <li><strong>r</strong> is the distance between the charges (meters, m)</li>
-        </ul>
+    <h2>Key Points</h2>
+    <ul>
+      <li><strong>Equation Structure:</strong> Resembles Newton's law of gravitation.</li>
+      <li><strong>Foundational Role:</strong> Used at both atomic and engineering scales.</li>
+      <li><strong>Directional Force:</strong> Acts along the line connecting two charges.</li>
+    </ul>
 
-        <p>Coulomb's Law explains why like charges repel and opposite charges attract. It is fundamental to understanding electrostatics and is used in physics, chemistry, and electrical engineering.</p>
+    <button onclick="location.href='index.html'">Back to Main Page</button>
+  </main>
 
-        <h3>Further Reading</h3>
-        <ul>
-            <li><a href="https://www.khanacademy.org/science/physics" target="_blank">Khan Academy - Coulomb's Law</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Coulomb%27s_law" target="_blank">Wikipedia - Coulomb’s Law</a></li>
-        </ul>
-
-        <button onclick="location.href='index.html'">Back to Main Page</button>
-
-        <!-- 📌 Coulomb Calculator 放入 <main> 里面 -->
-        <h3>Try It Yourself</h3>
-        <p>Use this simple calculator to see the force between two charges.</p>
-        <button onclick="toggleCalculator()" id="calc-btn">Open Coulomb Calculator</button>
-
-        <div id="calculator" style="display: none; margin-top: 20px;">
-            <label>Charge 1 (q1, C):
-                <input type="number" id="charge1" value="1" step="0.1">
-            </label><br><br>
-
-            <label>Charge 2 (q2, C):
-                <input type="number" id="charge2" value="-1" step="0.1">
-            </label><br><br>
-
-            <label>Distance (r, m):
-                <input type="number" id="distance" value="1" step="0.1">
-            </label><br><br>
-
-            <button onclick="calculateForce()">Calculate</button>
-            <p><strong>Force:</strong> <span id="result">0</span> N</p>
-        </div>
-
-    </main>
-
-    <!-- 📌 确保 JavaScript 在 HTML 之后加载 -->
-    <script src="script.js"></script>
-
-    <footer>
+  <footer>
     <p>&copy; 2025 Evan Wang | Electromagnetism Learning Project</p>
-</footer>
-
+  </footer>
 </body>
 </html>
